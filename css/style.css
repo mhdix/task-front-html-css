@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 62.5%;
+  color: var(--color-dark-primary);
+}
+
+/* colors */
+:root {
+  --color-gray: #f7f7f7;
+  --color-dark-primary: #130505;
+  --color-dark: #0e0e0e;
+  --color-secondary: #7F7F88;
+  --color-blue: #2e7af1;
+  --color-blue-light: #448cf91a;
+  --color-red: #cc312d;
+  --color-red-dark: #2f0d0c;
+  --color-red-light: #fff4f8;
+}
+
+/* Ready-made classes */
+
+.bg-gray {
+  background-color: var(--color-gray);
+}
+.bg-secondary-dark {
+  background-color: var(--color-red-dark);
+}
+.bg-blue-light {
+  background-color: var(--color-blue-light);
+}
+.bg-red {
+  background-color: var(--color-red);
+}
+.bg-red-light {
+  background-color: var(--color-red-light);
+}
+.text-red {
+  color: var(--color-red);
+}
+/* container */
+.container {
+  max-width: 1680px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+h1 {
+  font-size: 2.2rem;
+}
